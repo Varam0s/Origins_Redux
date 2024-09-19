@@ -1,0 +1,10 @@
+{
+	"name": "Water Speed Boost",
+	"description": "You can swim faster than a mere human",
+  "type": "origins:modify_swim_speed",
+  "modifier": {
+    "name": "Water Speed Boost",
+    "operation": "multiply_base",
+    "value": 1.5
+  }
+}

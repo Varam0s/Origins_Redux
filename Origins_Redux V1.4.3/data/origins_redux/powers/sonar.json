@@ -1,0 +1,30 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:area_of_effect",
+    "radius": 20,
+    "bientity_action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:glowing",
+        "duration": 200,
+        "amplifier": 0
+      },
+      "bientity_condition": {
+        "type": "origins:distance",
+        "comparison": "<=",
+        "compare_to": 20
+      }
+    }
+  },
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 1
+  },
+  "key": {
+    "key": "key.origins.ternary_active"
+  },
+  "name": "Sonar Pulse",
+  "description": "Sende eine Sonarwelle aus, um nahegelegene Lebewesen zu enthüllen und sie für 10 Sekunden leuchten zu lassen."
+}

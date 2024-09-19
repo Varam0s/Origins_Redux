@@ -1,0 +1,18 @@
+{
+  "type": "origins:modify_damage_taken",
+  "name": "Dragonskin",
+  "description": "You take less damage from physical attacks.",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "inverted": false,
+    "bientity_condition": {
+      "type": "origins:entity_type",
+      "entity_type": "minecraft:player"
+    }
+  },
+  "modifier": {
+    "name": "Dragonskin",
+    "operation": "multiply_base",
+    "value": -0.25
+  }
+}

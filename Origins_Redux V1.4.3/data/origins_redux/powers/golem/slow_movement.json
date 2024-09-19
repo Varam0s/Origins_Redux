@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Slow Movement",
+  "description": "As a golem, you are incredibly heavy and massive, which severely restricts your freedom of movement.",
+  "modifier": {
+    "name": "Decreased Movement Speed",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": -0.35,
+    "operation": "multiply_base"
+  }
+}

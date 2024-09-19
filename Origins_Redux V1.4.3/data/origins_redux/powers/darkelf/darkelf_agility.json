@@ -1,0 +1,17 @@
+{
+  "type": "origins:attribute",
+  "name": "Agility",
+  "description": "The Dark Elf is more agile and can move faster and jump higher.",
+  "modifier": {
+    "name": "Increased Movement Speed",
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.1,
+    "operation": "addition"
+  },
+  "secondary_modifier": {
+    "name": "Increased Jump Height",
+    "effect": "minecraft:jump_boost",
+    "value": 1,
+    "operation": "addition"
+  }
+}

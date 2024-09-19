@@ -1,0 +1,21 @@
+{
+    "name": "Water Breathing",
+    "description": "You gain the ability to breath underwater for (10 minutes)",
+    "type": "origins:active_self",
+    "cooldown": 150,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 1
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 12000,
+            "amplifier": 0
+        }
+    }
+}
