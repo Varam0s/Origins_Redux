@@ -1,0 +1,13 @@
+{
+  "type": "origins:conditioned_attribute",
+  "name": "Strengthend by Sunlight",
+  "description": "The Celestreal is strengthend by sunlight, gaining strength when exposed to the sun (+4).",
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "addition",
+    "value": 4.0
+  }
+}

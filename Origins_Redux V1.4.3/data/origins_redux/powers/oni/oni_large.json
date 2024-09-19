@@ -1,0 +1,7 @@
+{
+  "type": "origins:modify_size",
+  "name": "oni:large",
+  "description": "The Oni is larger than normal, giving them a slight reach advantage in combat.",
+  "scale": 1.2,
+  "base": "current"
+}

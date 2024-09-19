@@ -1,0 +1,19 @@
+{
+  "type": "origins:attribute",
+  "name": "Daylight Weakness",
+  "description": "The Dark Elf has difficulty seeing in bright light, making them more susceptible to attacks.",
+  "condition": {
+    "type": "origins:in_daylight"
+  },
+  "modifier": {
+    "name": "Reduced Attack Damage",
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -2.0,
+    "operation": "addition"
+  },
+  "secondary_modifier": {
+    "attribute": "minecraft:generic.armor",
+    "value": -2.0,
+    "operation": "addition"
+  }
+}
