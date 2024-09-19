@@ -1,0 +1,11 @@
+{
+    "name": "Strong Body",
+    "description": "Scince you are an Offspring of a God you have a high body physic",
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Godly Physic",
+      "attribute": "minecraft:generic.armor",
+      "value": 10.0,
+      "operation": "addition"
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "name": "Demon's Fury",
+    "description": "Unleashes a fierce battle cry, increasing your attack speed and dealing damage to nearby enemies.",
+    "type": "origins:active_self",
+    "cooldown": 150,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 1
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:speed",
+            "duration": 150,
+            "amplifier": 2
+        }
+    }
+}

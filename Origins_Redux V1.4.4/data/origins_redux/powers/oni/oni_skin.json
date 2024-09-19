@@ -1,0 +1,11 @@
+{
+  "type": "origins:attribute",
+  "name": "Oni Skin",
+  "description": "The Oni's skin is incredibly tough, providing additional natural armor, reducing damage from physical attacks.",
+  "modifier": {
+    "name": "Oni skin natural armor",
+    "attribute": "minecraft:generic.armor",
+    "value": 7.0,
+    "operation": "addition"
+  }
+}

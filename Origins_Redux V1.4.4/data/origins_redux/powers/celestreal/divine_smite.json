@@ -1,0 +1,30 @@
+{
+    "name": "Divine Smite",
+    "description": "Unleashes a burst of divine energy, striking nearby enemies with lightning and granting temporary protection from fire and explosions.",
+    "type": "origins:active_self",
+    "cooldown": 200,
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 1
+    },
+    "key": {
+        "key": "key.origins.primary_active"
+    },
+    "entity_action": {
+        "type": "origins:execute_command",
+        "command": "execute as @s at @s anchored eyes run summon minecraft:lightning_bolt ~ ~ ~ {Count: 5}",
+        "permission_level": 4
+    },
+    "status_effects": [
+        {
+            "effect": "minecraft:fire_resistance",
+            "duration": 200,
+            "amplifier": 0
+        },
+        {
+            "effect": "minecraft:blast_protection",
+            "duration": 200,
+            "amplifier": 0
+        }
+    ]
+}

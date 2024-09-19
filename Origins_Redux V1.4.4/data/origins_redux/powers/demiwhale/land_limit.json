@@ -1,0 +1,32 @@
+
+{
+    "name": "Land Limitations",
+    "description": "While you excel in aquatic environments, your abilities are diminished on land.",
+    "condition": {
+        "type": "origins:fluid_height",
+        "fluid": "minecraft:water",
+        "comparison": "<",
+        "compare_to": 1
+    },
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:apply_effect",
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "duration": 25,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            },
+            {
+                "effect": "minecraft:weakness",
+                "duration": 25,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        ]
+    }
+}
