@@ -1,0 +1,20 @@
+{
+  "powers": [
+	"origins_redux:darkelf/dark_origin",
+    	"origins_redux:darkelf/dark_cloak",
+	"origins_redux:darkelf/tele_port",
+    	"origins_redux:darkelf/night_vision",
+    	"origins_redux:darkelf/darkelf_agility",
+	"origins_redux:darkelf/daylight_blindness",
+	"origins_redux:darkelf/shadow_affinity"
+	
+	
+	
+    
+  ],
+  "icon": "minecraft:ender_pearl",
+  "order": 11,
+  "impact": 2,
+  "name": "Dark Elf",
+  "description": "Dark Elves are creatures of the night, excelling in stealth and agility under the cover of darkness."
+}

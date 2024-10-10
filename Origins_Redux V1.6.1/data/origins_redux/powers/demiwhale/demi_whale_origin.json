@@ -1,0 +1,18 @@
+{
+    "type": "origins:attribute",
+    "name": "Whale Origin",
+    "description": "With the power of the surf as your ally, you gain a +4 base attack damage bonus and +2 health.",
+    "modifiers": [
+        {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 4
+        },
+        {
+            "attribute": "minecraft:generic.max_health",
+            "operation": "addition",
+            "value": 4,
+            "name": "Max Health Increase"
+        }
+    ]
+}

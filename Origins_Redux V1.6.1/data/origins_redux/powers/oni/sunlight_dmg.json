@@ -1,0 +1,14 @@
+{
+  "type": "origins:damage_over_time",
+  "name": "Sonnenempfindlichkeit",
+  "description": "Du wirst geschwächt und erleidest Schaden, wenn du direktem Sonnenlicht ausgesetzt bist.",
+  "interval": 20,
+  "damage": 1.0,
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "damage_source": {
+    "name": "sunlight",
+    "bypasses_armor": true
+  }
+}

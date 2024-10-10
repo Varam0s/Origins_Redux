@@ -1,0 +1,10 @@
+{
+    "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.attack_damage",
+            "operation": "addition",
+            "value": 6
+        },
+        "name": "Godly Strength",
+        "description": "You got the strength of an Demigod"
+}

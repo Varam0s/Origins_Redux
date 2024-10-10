@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "origins": [
+    "origins_redux:hadesoffspring",
+	"origins_redux:celestreal",
+	"origins_redux:oni",
+	"origins_redux:dark_elf",
+	"origins_redux:demi_human_whale",
+	"origins_redux:wyvern_child",
+	"origins_redux:golem",
+	"origins_redux:arachne",
+	"origins_redux:alea"
+	
+	
+  ]
+}

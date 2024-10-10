@@ -1,0 +1,16 @@
+{
+  "name": "Alea the Dice Maiden",
+  "description": "Alea is a master of fate and chance, her powers dictated by the roll of a die. Every action she takes is a gamble, with the potential for great fortune or devastating consequences.",
+  "icon": "minecraft:soul_sand",
+  "unchoosable": false,
+  "powers": [
+	"origins_redux:alea/origin_alea",
+    "origins_redux:alea/roll_of_fate",
+	"origins_redux:alea/favorable_fate",
+	"origins_redux:alea/fates_manipulation",
+	"origins_redux:alea/alea_armor"
+    
+  ],
+  "order": 5,
+  "impact": 3
+}

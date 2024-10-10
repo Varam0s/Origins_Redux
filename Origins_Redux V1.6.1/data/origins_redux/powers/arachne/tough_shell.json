@@ -1,0 +1,11 @@
+{
+    "name": "Tough Shell",
+    "description": "You've got a tough shell like a spider! This grants you a boost of 5 armor points.",
+    "type": "origins:attribute",
+    "modifier": {
+     
+      "attribute": "minecraft:generic.armor",
+      "value": 5.0,
+      "operation": "addition"
+    }
+  }

@@ -1,0 +1,39 @@
+{
+  "type": "origins:active_self",
+  "name": "Earthquake",
+  "description": "Unleash the power of the earth itself, causing a mighty tremor that shakes the ground and damages all entities within the area.",
+  "cooldown": 600,
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:area_of_effect",
+        "radius": 10,
+        "bientity_action": {
+          "type": "origins:damage",
+          "amount": 10,
+          "source": {
+            "name": "earthquake",
+            "bypasses_armor": false
+          }
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run particle minecraft:explosion ~ ~1 ~ 0.5 0.5 0.5 0.01 100 force"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute at @s run playsound minecraft:ambient.weather.thunder master @a ~ ~ ~ 1 1"
+      }
+    ]
+  },
+  "hud_render": {
+    "should_render": true,
+    "sprite_location": "origins:textures/gui/resource_bar.png",
+    "bar_index": 4
+  }
+}

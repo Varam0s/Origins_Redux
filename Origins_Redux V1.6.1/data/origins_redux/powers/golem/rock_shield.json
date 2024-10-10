@@ -1,0 +1,36 @@
+{
+  "type": "origins:active_self",
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:resistance",
+          "duration": 200,
+          "amplifier": 5
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "effect": "minecraft:slowness",
+          "duration": 200,
+          "amplifier": 255,
+          "show_particles": false,
+          "show_icon": false
+        }
+      }
+    ]
+  },
+  "cooldown": 1000,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 4
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "name": "Rock Shield",
+  "description": "Create a shield around yourself that greatly reduces incoming damage but immobilizes you for 10 seconds."
+}

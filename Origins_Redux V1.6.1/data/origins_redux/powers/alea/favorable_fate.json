@@ -1,0 +1,21 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1200,
+  "key": {
+    "key": "key.origins.ternary_active"
+  },
+  "entity_action": {
+    "type": "origins:chance",
+    "chance": 0.75,
+    "action": {
+      "type": "origins:apply_effect",
+      "effect": {
+        "effect": "minecraft:regeneration",
+        "duration": 200,
+        "amplifier": 1
+      }
+    }
+  },
+  "name": "Favorable Fate",
+  "description": "The threads of fate favor you. You have a 75% chance to gain regeneration upon activating your primary ability, boosting your survival when luck is on your side."
+}

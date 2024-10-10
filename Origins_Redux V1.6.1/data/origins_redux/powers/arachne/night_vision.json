@@ -1,0 +1,6 @@
+{
+  "type": "origins:night_vision",
+  "name": "Night Vision",
+  "description": "You have eyes that glow in the dark which allow you to see in the dark!",
+  "strength": 1.0
+}

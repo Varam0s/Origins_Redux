@@ -1,0 +1,91 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 600,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 1
+  },
+  "key": {
+    "key": "key.origins.primary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:chance",
+        "chance": 0.16,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:speed",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.16,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.16,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:jump_boost",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.16,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.16,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:weakness",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.16,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      }
+    ]
+  },
+  "name": "Roll of Fate",
+  "description": "Every roll of the dice is a gamble. Upon activating this ability, you receive one of several random effects, both beneficial and harmful, as the dice determines your fate."
+}
+

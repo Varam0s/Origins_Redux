@@ -1,0 +1,25 @@
+{
+    "name": "Slow Fall",
+    "description": "Since you are slightly levitating, you won’t take fall damage.",
+    "type": "origins:modify_falling",
+    "velocity": 0.01,
+    "take_fall_damage": false,
+    "effects": [
+        {
+            "type": "origins:add_status_effect",
+            "effect": "minecraft:levitation",
+            "duration": 200
+        }
+    ],
+    "hud_render": {
+        "should_render": true,
+        "bar_index": 1
+        
+    },
+    "badges": [
+        {
+            "sprite": "minecraft:textures/item/feather.png",
+            "text": "I'm a dirt badge!"
+        }
+    ]
+}

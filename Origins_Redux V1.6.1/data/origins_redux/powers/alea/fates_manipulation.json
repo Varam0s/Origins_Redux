@@ -1,0 +1,66 @@
+{
+  "type": "origins:active_self",
+  "cooldown": 1800,
+  "hud_render": {
+    "should_render": true,
+    "bar_index": 1
+  },
+  "key": {
+    "key": "key.origins.secondary_active"
+  },
+  "entity_action": {
+    "type": "origins:and",
+    "actions": [
+      {
+        "type": "origins:chance",
+        "chance": 0.25,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:regeneration",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.25,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:strength",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.25,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:jump_boost",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      },
+      {
+        "type": "origins:chance",
+        "chance": 0.25,
+        "action": {
+          "type": "origins:apply_effect",
+          "effect": {
+            "effect": "minecraft:slowness",
+            "duration": 200,
+            "amplifier": 1
+          }
+        }
+      }
+    ]
+  },
+  "name": "Fate Manipulation",
+  "description": "A roll of the dice determines your fate. You have a 25% chance to gain one of four effects: regeneration, strength, jump boost, or slowness."
+}

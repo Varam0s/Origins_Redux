@@ -1,0 +1,20 @@
+{
+  "name": "Arachne",
+  "description": "A creature half-human, half-spider that rules the web and the darkness.",
+  "icon": "minecraft:fermented_spider_eye",
+  "unchoosable": false,
+  "powers": [
+	"origins_redux:arachne/tough_shell",
+	"origins:climbing",
+	"origins:master_of_webs",
+    "origins_redux:arachne/net",
+	"origins_redux:arachne/venom_bite",
+	"origins_redux:arachne/sense",
+	"origins_redux:arachne/night_vision",
+	"origins_redux:arachne/fire_weak"
+	
+    
+  ],
+  "order": 5,
+  "impact": 3
+}

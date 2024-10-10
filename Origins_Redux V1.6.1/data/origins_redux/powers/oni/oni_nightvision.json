@@ -1,0 +1,6 @@
+{
+  "type": "origins:night_vision",
+  "name": "Night Vision",
+  "description": "The Oni can see clearly in the dark, providing them with permanent night vision.",
+  "strength": 1.0
+}

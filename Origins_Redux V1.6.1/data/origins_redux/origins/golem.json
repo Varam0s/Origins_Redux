@@ -1,0 +1,27 @@
+{
+	"powers": [
+		"origins_redux:golem/golem_origin",
+		"origins_redux:golem/earthquake",
+		"origins_redux:golem/fortify",
+		"origins_redux:golem/rock_shield",
+		"origins_redux:golem/copper_eat",
+		"origins_redux:golem/stone_skin",
+		"origins_redux:golem/enhanced_strength",
+		"origins_redux:golem/slow_movement",
+		"origins:water_vulnerability",
+		"origins:fire_immunity",
+		"origins:more_exhaustion"
+		
+		
+		
+		
+		
+		
+		
+	],
+	"icon": "minecraft:amethyst_cluster",
+	"order": 10,
+	"impact": 3,
+	"name": "Golem",
+	"description": "The Golem Origin represents a being made of stone and geodes, blessed with enormous strength and resilience!"
+}

@@ -1,0 +1,11 @@
+{
+    
+    "type": "origins:attribute",
+    "modifier": {
+      "name": "Weak Body",
+      "attribute": "minecraft:generic.armor",
+      "value": 3.0,
+      "operation": "addition"
+    },
+	"hidden": true
+  }

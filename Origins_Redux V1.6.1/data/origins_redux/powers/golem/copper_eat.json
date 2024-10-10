@@ -1,0 +1,47 @@
+{
+  "name": "Nether Forager",
+  "description": "You have adapted to the Nether's ecosystem, sustaining yourself only on Iron Ingots.",
+  "type": "origins:multiple",
+  "restricted_diet": {
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:food"
+        },
+        {
+          "type": "origins:or",
+          "conditions": [
+            {
+              "type": "origins:ingredient",
+              "ingredient": {
+                "item": "minecraft:copper_ingot"
+              },
+              "inverted": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "iron_bite": {
+    "type": "apugli:edible_item",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:copper_ingot"
+      }
+    },
+    "food_component": {
+      "hunger": 5,
+      "saturation": 1.2,
+      "meat": false,
+      "always_edible": true,
+      "snack": false
+    },
+    "use_action": "eat",
+    "sound": "minecraft:entity.blaze.hurt",
+    "priority": 0
+  }
+}
